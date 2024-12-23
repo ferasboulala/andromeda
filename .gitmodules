@@ -1,0 +1,6 @@
+[submodule "third-party/raylib"]
+	path = third-party/raylib
+	url = https://github.com/raysan5/raylib.git
+[submodule "third-party/spatial-tree"]
+	path = third-party/spatial-tree
+	url = git@github.com:ferasboulala/spatial-tree.git
