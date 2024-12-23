@@ -1,0 +1,9 @@
+bin
+build
+build-web
+.*sw*
+.vscode
+perf.*
+prof.*
+.DS_Store
+.cache
