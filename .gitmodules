@@ -4,3 +4,6 @@
 [submodule "third-party/spatial-tree"]
 	path = third-party/spatial-tree
 	url = git@github.com:ferasboulala/spatial-tree.git
+[submodule "third-party/simde"]
+	path = third-party/simde
+	url = https://github.com/simd-everywhere/simde.git

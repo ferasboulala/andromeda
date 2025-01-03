@@ -7,3 +7,4 @@ perf.*
 prof.*
 .DS_Store
 .cache
+*.ini

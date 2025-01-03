@@ -35,7 +35,8 @@ function(create_binary target_name entry_point)
   target_include_directories(
     ${target_name}
     PUBLIC
-    ${CMAKE_SOURCE_DIR}/third-party/spatial-tree/spatial-tree
+    ${CMAKE_SOURCE_DIR}/third-party/spatial-tree
+    ${CMAKE_SOURCE_DIR}/third-party/simde
     ${CMAKE_SOURCE_DIR}/andromeda)
   target_link_libraries(
     ${target_name}
@@ -45,4 +46,4 @@ function(create_binary target_name entry_point)
     )
 endfunction()
 
-create_binary("demo" examples/demo.cpp)
+create_binary("andromeda" andromeda.cpp)
